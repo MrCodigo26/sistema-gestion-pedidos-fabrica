@@ -2,7 +2,7 @@
 
 Sistema web para la gestion de pedidos de una fabrica, permitiendo administrar usuarios, clientes, productos y pedidos con control de roles y estados.
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 - Java 11
 - JDBC
@@ -14,7 +14,7 @@ Sistema web para la gestion de pedidos de una fabrica, permitiendo administrar u
 - Git
 - MySQL Connector J 8.0.33
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
 - src/main/java/com/fabrica/pedidos/modelo - Clases entidad
 - src/main/java/com/fabrica/pedidos/dao - Clases de acceso a datos
@@ -28,7 +28,7 @@ Sistema web para la gestion de pedidos de una fabrica, permitiendo administrar u
 - src/main/webapp/login.jsp - Pagina de inicio de sesion
 - src/main/webapp/dashboard.jsp - Panel principal
 
-## Estandares de Codificacion
+## Estandares de codificacion
 
 - Clases: PascalCase (Ej: UsuarioDAO)
 - Metodos: camelCase (Ej: obtenerUsuarioPorId)
@@ -36,9 +36,9 @@ Sistema web para la gestion de pedidos de una fabrica, permitiendo administrar u
 - Paquetes: Minusculas (Ej: com.fabrica.pedidos.modelo)
 - Constantes: MAYUSCULAS con guiones bajos (Ej: SQL_INSERTAR)
 
-## Base de Datos
+## Base de datos
 
-### Nombre de la Base de Datos
+### Nombre de la base de datos
 
 fabrica_pedidos
 
@@ -49,21 +49,21 @@ fabrica_pedidos
 - productos: id, nombre, descripcion, precio, stock, categoria
 - pedidos: id, cliente_id, producto_id, cantidad, fecha_pedido, estado, operador_id, despachador_id
 
-### Roles de Usuario
+### Roles de usuario
 
 - ADMIN: Acceso total al sistema
 - OPERADOR: Gestiona pedidos en proceso
 - DESPACHADOR: Gestiona pedidos despachados
 - CLIENTE: Realiza pedidos
 
-### Estados de Pedido
+### Estados de pedido
 
 - PENDIENTE: Pedido creado
 - EN_PROCESO: En fabricacion
 - DESPACHADO: Enviado al cliente
 - ENTREGADO: Recibido por el cliente
 
-### Credenciales de Conexion
+### Credenciales de conexion
 
 - URL: jdbc:mysql://localhost:3306/fabrica_pedidos
 - Usuario: root
@@ -79,7 +79,7 @@ fabrica_pedidos
 - Eclipse IDE for Enterprise Java
 - Conector MySQL JDBC 8.0.33
 
-### Pasos de Configuracion
+### Pasos de configuracion
 
 1. Clonar el repositorio
 2. Crear la base de datos en MySQL
@@ -89,7 +89,7 @@ fabrica_pedidos
 6. Desplegar en Tomcat desde Eclipse
 7. Acceder a: http://localhost:8080/sistema-gestion-pedidos-fabrica/login
 
-### Usuarios de Prueba
+### Usuarios de prueba
 
 - Administrador: Administrador / admin123
 - Operador: Operador1 / operador123
