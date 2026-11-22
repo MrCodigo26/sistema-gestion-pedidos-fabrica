@@ -1,4 +1,4 @@
-# Sistema de Gestion de Pedidos para Fabrica
+# Sistema de gestion de pedidos para fabrica
 
 Sistema web para la gestion de pedidos de una fabrica, permitiendo administrar usuarios, clientes, productos y pedidos con control de roles y estados.
 
